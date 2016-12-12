@@ -1,0 +1,41 @@
+.container{
+        height: 300px;
+        width: 1000px;
+        margin:auto;
+        padding: 0px;
+      }
+      .tab-container{
+        position: relative;
+      }
+      .tab-radio, .tab-sm-radio{
+        display: none;
+		margin:0 auto;
+      }
+      .tab-lable, .tab-sm-lable{
+        display: inline-block;
+        line-height: 20px;
+        margin:auto;
+        text-align: center;
+      }
+       .tab-sm-lable{
+         color:#000;
+       }
+      .content, .sm-content{
+        position: absolute;
+        /*visibility: hidden;*/
+        display: none;
+        top: 0px;
+        width: 950px;
+        font-size: 14px;
+        transition: transform .5s, opacity .7s;
+        transform: translateY(20px);
+      }
+      .sm-content{
+        top: 0px;
+      }
+      .tab-radio:checked + .tab-lable + .content, .tab-sm-radio:checked + .tab-sm-lable + .sm-content{
+        /*visibility: visible;*/
+        display: block;
+      }
+      .tab-radio:checked + .tab-lable, .tab-sm-radio:checked + .tab-sm-lable{
+        background-color: orange;      }

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>graduation-system2.1</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StatusRecognise</servlet-name>
+    <servlet-class>com.system.servlet.StatusRecognise</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTeacherList</servlet-name>
+    <servlet-class>com.system.servlet.GetTeacherList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTeacher</servlet-name>
+    <servlet-class>com.system.servlet.GetTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentselectionInsert</servlet-name>
+    <servlet-class>com.system.servlet.StudentselectionInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentselectionCancel</servlet-name>
+    <servlet-class>com.system.servlet.StudentselectionCancel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudent</servlet-name>
+    <servlet-class>com.system.servlet.GetStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentselection</servlet-name>
+    <servlet-class>com.system.servlet.GetStudentselection</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherselectionInsert</servlet-name>
+    <servlet-class>com.system.servlet.TeacherselectionInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherselectionCancel</servlet-name>
+    <servlet-class>com.system.servlet.TeacherselectionCancel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetStuInfo</servlet-name>
+    <servlet-class>com.system.servlet.DoGetStuInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoUpdateInfo</servlet-name>
+    <servlet-class>com.system.servlet.DoUpdateInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectManager</servlet-name>
+    <servlet-class>com.system.servlet.ProjectManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProChoose</servlet-name>
+    <servlet-class>com.system.servlet.ProChoose</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProChooseCancle</servlet-name>
+    <servlet-class>com.system.servlet.ProChooseCancle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Notice</servlet-name>
+    <servlet-class>com.system.Secretary.servlet.Notice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>timeManage</servlet-name>
+    <servlet-class>com.system.Secretary.servlet.timeManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>findStudentById</servlet-name>
+    <servlet-class>com.system.Secretary.servlet.findStudentById</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>StatusRecognise</servlet-name>
+    <url-pattern>/StatusRecognise</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTeacherList</servlet-name>
+    <url-pattern>/GetTeacherList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTeacher</servlet-name>
+    <url-pattern>/GetTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentselectionInsert</servlet-name>
+    <url-pattern>/StudentselectionInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentselectionCancel</servlet-name>
+    <url-pattern>/StudentselectionCancel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudent</servlet-name>
+    <url-pattern>/GetStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentselection</servlet-name>
+    <url-pattern>/GetStudentselection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherselectionInsert</servlet-name>
+    <url-pattern>/TeacherselectionInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherselectionCancel</servlet-name>
+    <url-pattern>/TeacherselectionCancel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoGetStuInfo</servlet-name>
+    <url-pattern>/DoGetStuInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoUpdateInfo</servlet-name>
+    <url-pattern>/DoUpdateInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectManager</servlet-name>
+    <url-pattern>/ProjectManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProChoose</servlet-name>
+    <url-pattern>/ProChoose</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProChooseCancle</servlet-name>
+    <url-pattern>/ProChooseCancle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Notice</servlet-name>
+    <url-pattern>/Notice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>timeManage</servlet-name>
+    <url-pattern>/timeManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findStudentById</servlet-name>
+    <url-pattern>/findStudentById</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/jsp/login.jsp</welcome-file>
+    <welcome-file>/jsp/student/Main.jsp</welcome-file>
+    <welcome-file>/jsp/student/Stu_chooseFor_Tea.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
